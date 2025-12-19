@@ -83,6 +83,7 @@ class KNearestNeighbors(ClassifierMixin, BaseEstimator):
         self : instance of KNearestNeighbors
             The current instance of the classifier
         """
+
         X, y = validate_data(self, X, y)
         check_classification_targets(y)
 
